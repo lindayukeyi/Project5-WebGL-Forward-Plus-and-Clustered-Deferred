@@ -15,9 +15,9 @@ const Lambertian = 'Lambertian';
 const tile = 15;
 
 const params = {
-  renderer: FORWARD_PLUS,
+  //renderer: FORWARD_PLUS,
   //renderer: FORWARD,
-  //renderer: CLUSTERED,
+  renderer: CLUSTERED,
   numLights:NUM_LIGHTS,
   maxLightsPerCluster: MAX_LIGHTS_PER_CLUSTER,
   _renderer: null,
